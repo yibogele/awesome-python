@@ -111,6 +111,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [django-jet](https://github.com/geex-arts/django-jet) - Modern responsive template for the Django admin interface with improved functionality.
 * [django-suit](https://djangosuit.com/) - Alternative Django Admin-Interface (free only for Non-commercial use).
 * [django-xadmin](https://github.com/sshwsfc/xadmin) - Drop-in replacement of Django admin comes with lots of goodies.
+* [jet-bridge](https://github.com/jet-admin/jet-bridge) - Admin panel framework for any application with nice UI (ex Jet Django)
 * [flask-admin](https://github.com/flask-admin/flask-admin) - Simple and extensible administrative interface framework for Flask.
 * [flower](https://github.com/mher/flower) - Real-time monitor and web admin for Celery.
 * [wooey](https://github.com/wooey/wooey) - A Django app which creates automatic web UIs for Python scripts.
@@ -218,12 +219,14 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [pycallgraph](https://github.com/gak/pycallgraph) - A library that visualises the flow (call graph) of your Python application.
 * Code Linters
     * [flake8](https://pypi.org/project/flake8/) - A wrapper around `pycodestyle`, `pyflakes` and McCabe.
+        * [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions)
     * [pylint](https://www.pylint.org/) - A fully customizable source code analyzer.
     * [pylama](https://github.com/klen/pylama) - A code audit tool for Python and JavaScript.
+    * [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
 * Code Formatters
     * [black](https://github.com/python/black) - The uncompromising Python code formatter.
     * [yapf](https://github.com/google/yapf) - Yet another Python code formatter from Google.
-* Static Type Checkers
+* Static Type Checkers, also see [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
     * [mypy](http://mypy-lang.org/) - Check variable types during compile time.
     * [pyre-check](https://github.com/facebook/pyre-check) - Performant type checking.
 * Static Type Annotations Generators
@@ -391,7 +394,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [delorean](https://github.com/myusuf3/delorean/) - A library for clearing up the inconvenient truths that arise dealing with datetimes.
 * [moment](https://github.com/zachwill/moment) - A Python library for dealing with dates/times. Inspired by [Moment.js](http://momentjs.com/).
 * [Pendulum](https://github.com/sdispater/pendulum) - Python datetimes made easy.
-* [PyTime](https://github.com/shinux/PyTime) - A easy-use Python module which aims to operate date/time/datetime by string.
+* [PyTime](https://github.com/shinux/PyTime) - An easy-to-use Python module which aims to operate date/time/datetime by string.
 * [pytz](https://launchpad.net/pytz) - World timezone definitions, modern and historical. Brings the [tz database](https://en.wikipedia.org/wiki/Tz_database) into Python.
 * [when.py](https://github.com/dirn/When.py) - Providing user-friendly functions to help perform common date and time actions.
 * [maya](https://github.com/kennethreitz/maya) - Datetimes for Humans.
@@ -535,7 +538,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Libraries for sending and parsing email.*
 
 * [envelopes](http://tomekwojcik.github.io/envelopes/) - Mailing for human beings.
-* [flanker](https://github.com/mailgun/flanker) - A email address and Mime parsing library.
+* [flanker](https://github.com/mailgun/flanker) - An email address and Mime parsing library.
 * [imbox](https://github.com/martinrusev/imbox) - Python IMAP for Humans.
 * [inbox.py](https://github.com/kennethreitz/inbox.py) - Python SMTP Server for Humans.
 * [lamson](https://github.com/zedshaw/lamson) - Pythonic SMTP Application Server.
@@ -601,7 +604,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 * [curses](https://docs.python.org/3/library/curses.html) - Built-in wrapper for [ncurses](http://www.gnu.org/software/ncurses/) used to create terminal GUI applications.
 * [Eel](https://github.com/ChrisKnott/Eel) - A library for making simple Electron-like offline HTML/JS GUI apps.
-* [enaml](https://github.com/nucleic/enaml) - Creating beautiful user-interfaces with Declaratic Syntax like QML.
+* [enaml](https://github.com/nucleic/enaml) - Creating beautiful user-interfaces with Declarative Syntax like QML.
 * [Flexx](https://github.com/zoofIO/flexx) - Flexx is a pure Python toolkit for creating GUI's, that uses web technology for its rendering.
 * [Gooey](https://github.com/chriskiehl/Gooey) - Turn command line programs into a full GUI application with one line.
 * [kivy](https://kivy.org/) - A library for creating NUI applications, running on Windows, Linux, Mac OS X, Android and iOS.
@@ -661,7 +664,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 * [grequests](https://github.com/kennethreitz/grequests) - requests + gevent for asynchronous HTTP requests.
 * [httplib2](https://github.com/httplib2/httplib2) - Comprehensive HTTP client library.
-* [requests](http://docs.python-requests.org/en/latest/) - HTTP Requests for Humans™.
+* [requests](https://requests.kennethreitz.org/en/master/) - HTTP Requests for Humans™.
 * [treq](https://github.com/twisted/treq) - Python requests like API built on top of Twisted's HTTP client.
 * [urllib3](https://github.com/shazow/urllib3) - A HTTP library with thread-safe connection pooling, file post support, sanity friendly.
 
@@ -789,7 +792,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Libraries for working with human languages.*
 
 - General
-    * [gensim](https://github.com/RaRe-Technologies/gensim) - Topic Modelling for Humans.
+    * [gensim](https://github.com/RaRe-Technologies/gensim) - Topic Modeling for Humans.
     * [langid.py](https://github.com/saffsd/langid.py) - Stand-alone language identification system.
     * [nltk](http://www.nltk.org/) - A leading platform for building Python programs to work with human language data.
     * [pattern](https://github.com/clips/pattern) - A web mining module for the Python.
@@ -827,7 +830,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Libraries for building user's activities.*
 
 * [django-activity-stream](https://github.com/justquick/django-activity-stream) - Generating generic activity streams from the actions on your site.
-* [Stream Framework](https://github.com/tschellenbach/Stream-Framework) - Building newsfeed and notification systems using Cassandra and Redis.
+* [Stream Framework](https://github.com/tschellenbach/Stream-Framework) - Building news feed and notification systems using Cassandra and Redis.
 
 ## ORM
 
@@ -1273,7 +1276,6 @@ Where to discover new Python libraries.
 * [Django Packages](https://djangopackages.org/)
 * [Full Stack Python](https://www.fullstackpython.com/)
 * [Python Cheatsheet](https://www.pythoncheatsheet.org/)
-* [Python Hackers](http://www.oss.io/open-source/)
 * [Python ZEEF](https://python.zeef.com/alan.richmond)
 * [Python 开发社区](https://www.ctolib.com/python/)
 * [Real Python](https://realpython.com)
